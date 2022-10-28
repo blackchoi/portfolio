@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="YouTubePopUp.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" /> -->
+    <!-- <script src="js/jquery-3.6.1.min.js"></script> -->
+    <!-- <script src="js/jquery.mousewheel.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+    <script type="text/javascript" src="jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="YouTubePopUp.jquery.js"></script>
+    <script type="text/javascript">
+        jQuery(function () {
+            jQuery("a.bla-1").YouTubePopUp();
+            jQuery("a.bla-2").YouTubePopUp({ autoplay: 0 }); // Disable autoplay
+        });
+    </script>
+</head>
+
+<body>
+    <header id="main_header">
+        <div class="innerbox">
+            <h1><a href="#"><img src="img/Logo_header.png" alt="logo_header"></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#main_content2">About</a></li>
+                    <li><a href="#main_content3">Portfolilo</a></li>
+                    <li><a href="#main_content4">Design Work</a></li>
+                    <li><a href="#main_footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- header 끝 -->
+
+    <section id="main_content1">
+        <div class="innerbox">
+            <p>안녕하세요!<br>Hello!<br><br>
+                <span>에디터 최예강</span>입니다.<br>I'm <span>editor ye kang
+                    Choi</span><br><br><span>Smart&Chic</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- cont1 끝 -->
+
+    <section id="main_content2">
+        <div class="innerbox">
+            <h2>YKC<span>About</span></h2>
+            <img src="/img/face_1.jpg" alt="">
+            <div class="contentbox">
+                <h3 id="smart_text">
+                    "영리하고<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    세련된 예리함"</h3>
+                <div class="profile">
+                    <h4>PROFILE</h4>
+                    <dl>
+                        <dt>Name</dt>
+                        <dd>최예강</dd>
+                        <dt>Address</dt>
+                        <dd>부산광역시 중구</dd>
+                        <dt>E-mail</dt>
+                        <dd>yekang23@naver.com</dd>
+                        <dt>Phone</dt>
+                        <dd>010.7710.8882</dd>
+                    </dl>
+                </div>
+                <div class="exp">
+                    <h4>EXPERINCE</h4>
+                    <dl>
+                        <dt>2014.10~2016.01</dt>
+                        <dd>서울동아픽쳐스 기획팀</dd>
+                        <dt>2016.01~2017.02</dt>
+                        <dd>김해공항국내선 청원경찰</dd>
+                        <dt>2017.02~2019.01</dt>
+                        <dd>서울동아픽쳐스 시나리오 각색</dd>
+                        <dt>2020.12~2022.01</dt>
+                        <dd>감천항 보안요원</dd>
+                    </dl>
+                </div>
+                <div class="skill">
+                    <h4>SKILL</h4>
+                    <ul>
+                        <li class="p1"><span><img src="/img/PS_icon.png"></span></li>
+                        <li class="p2"><span><img src="/img/AI_icon.png"></span></li>
+                        <li class="p4"><span><img src="/img/PR_icon.png"></span></li>
+                        <li class="p5"><span><img src="/img/AE_icon.png"></span></li>
+                        <li class="p6"><span><img src="/img/CSS_html_icon.png"></span></li>
+                        <li class="p7"><span><img src="/img/CSS_css_icon.png"></span></li>
+                        <li class="p8"><span><img src="/img/jquery_icon_icon.png"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cont2 끝 -->
+
+    <!-- 유튜브 팝업 띄우는거 배워야함!!!!!!! -->
+    <section id="main_content3">
+        <div class="innerbox">
+            <h2>Video Editing<span>Portfolio</span></h2>
+            <ul>
+                <li class="worklist worklist1">
+                    <a class="bla-1" href="https://www.youtube.com/embed/3L6EiqJsWck">
+                        <div class="listbox">
+                            <img src="/img/youtube_1.png" alt="유튜브 편집_1">
+                            <div>
+                                <strong>유튜브 편집_1</strong>
+                                <p>유튜브 편집에 대한 간단한 내용</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!--  <div class="work_bg"></div>
+                    <div class="pop pop1">
+                        <div class="pop_t">
+                            <div class="pop_title">유튜브 편집_1</div>
+                            <a href="#" class="close">×</a>
+                        </div>
+                        <div class="pop_box">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3L6EiqJsWck"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div> -->
+                </li>
+                <li class="worklist worklist2">
+                    <a class="bla-1" href="https://www.youtube.com/embed/3lwTql6YlSE" class="workbtns">
+                        <div class="listbox">
+                            <img src="/img/youtube_2.png" alt="유튜브 편집_2">
+                            <div>
+                                <strong>유튜브 편집_2</strong>
+                                <p>유튜브 편집에 대한 간단한 내용</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- <div class="work_bg"></div>
+                    <div class="pop pop2">
+                        <div class="pop_t">
+                            <div class="pop_title">유튜브 편집_2</div>
+                            <a href="#" class="close">×</a>
+                        </div>
+                        <div class="pop_box">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/3lwTql6YlSE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div> -->
+                </li>
+                <li class="worklist worklist3">
+                    <a class="bla-1" href="https://www.youtube.com/embed/oF4X5OkAiq8" class="workbtns">
+                        <div class="listbox">
+                            <img src="/img/youtube_3.png" alt="유튜브 편집_3">
+                            <div>
+                                <strong>유튜브 편집_3</strong>
+                                <p>유튜브 편집에 대한 간단한 내용</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- <div class="work_bg"></div>
+                    <div class="pop pop3">
+                        <div class="pop_t">
+                            <div class="pop_title">유튜브 편집_3</div>
+                            <a href="#" class="close">×</a>
+                        </div>
+                        <div class="pop_box">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/oF4X5OkAiq8"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div> -->
+                </li>
+                <li class="worklist worklist4">
+                    <a class="bla-1" href="https://www.youtube.com/embed/yXz47iRuD0Y" class="workbtns">
+                        <div class="listbox">
+                            <img src="/img/youtube_4.png" alt="유튜브 편집_4">
+                            <div>
+                                <strong>유튜브 편집_4</strong>
+                                <p>유튜브 편집에 대한 간단한 내용</p>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- <div class="work_bg"></div>
+                    <div class="pop pop4">
+                        <div class="pop_t">
+                            <div class="pop_title">유튜브 편집_4</div>
+                            <a href="#" class="close">×</a>
+                        </div>
+                        <div class="pop_box">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yXz47iRuD0Y"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div> -->
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- cont3  끝 -->
+
+    <section id="main_content4" class="portfolio">
+        <div class="innerbox">
+            <h2>Web Design<span>Design Work</span></h2>
+            <h3>01.
+                <span class="k">국내 도서 사이트 알라딘</span>
+                <span class="e">Domestic book web Aladin</span>
+            </h3>
+            <div class="portfolio_img">
+                <div class="mockup">
+                    <div class="mock_A"></div>
+                    <img src="/img/monitor_in.png" alt="국내 도서 사이트 알라딘" class="mock_d">
+                </div>
+            </div>
+            <div class="portfolio_text">
+                <div class="left">
+                    <div class="info">
+                        <h4>Info</h4>
+                        <p>복잡 했던 기존의 알라딘 사이트를 <span>간결하고</span><br><span>한눈에 보이는</span>구조로 제작</p>
+                    </div>
+                    <div class="schedule">
+                        <h4>Schedule</h4>
+                        <p>22.09.27 ~ 22.10.03</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="concept">
+                        <h4>Concept</h4>
+                        <p>간결한 | 모던 | 선명한</p>
+                    </div>
+                    <div class="color">
+                        <h4>Color</h4>
+                        <ul>
+                            <li>#eee6cc</li>
+                            <li>#685946</li>
+                            <li>#f5f6ea</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cont4 끝 -->
+
+    <section id="main_content5" class="portfolio">
+        <div class="innerbox">
+            <h3>02.
+                <span class="k">CJ THE MARKET 쿠폰 원정대</span>
+                <span class="e">CJ THE MARKET coupon expedition</span>
+            </h3>
+            <div class="portfolio_img">
+                <div class="mockup">
+                    <div class="mock_A"></div>
+                    <img src="/img/cj_phone_1.png" alt="CJ THE MARKET" class="mock_m">
+                    <img src="/img/cj_tablit_1.png" alt="CJ THE MARKET" class="mock_t">
+                </div>
+            </div>
+            <div class="portfolio_text">
+                <div class="left">
+                    <div class="info">
+                        <h4>Info</h4>
+                        <p>원색 계열과 <span>톤 다운을 통해</span><br>쿠폰 원정대가<span>전하고자 하는 메세지를 부각</span>
+                        </p>
+                    </div>
+                    <div class="schedule">
+                        <h4>Schedule</h4>
+                        <p>22.09.02 ~ 22.09.02</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="concept">
+                        <h4>Concept</h4>
+                        <p>도시적 | 눈에띄는 | 선명한</p>
+                    </div>
+                    <div class="color">
+                        <h4>Color</h4>
+                        <ul>
+                            <li>#9c44fb</li>
+                            <li>#f201dc</li>
+                            <li>#22d273</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cont5 끝 -->
+
+    <a href="#" id="toTop">Top</a>
+    <footer id="main_footer">
+        <div class="logofooter"><a href="https://blog.naver.com/yekang23"><img src="/img/logo_footer.png"></a>
+        </div>
+        <p>이름:최예강&nbsp;&nbsp;&nbsp;&nbsp;TEL:010.7710.8882</p>
+        <p>※본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다. 일부 내용 및 폰트, 이미지 등은 그 출처가 따로 있음을 밝힙니다.</p>
+    </footer>
+
+    <!-- footer 끝 -->
+
+</body>
+
+</html>
