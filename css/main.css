@@ -270,15 +270,17 @@ section>.innerbox>h2>span::before {
 #main_content3 {
     clear: both;
     background: url(../img/background_3.png) no-repeat center;
-    height: 750px;
+    height: 900px;
 }
 
 #main_content3>.innerbox>ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 150px;
-    margin-top: 150px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin: 2px;
+
 }
 
 #main_content3>.innerbox>ul>li {
@@ -286,6 +288,7 @@ section>.innerbox>h2>span::before {
     background: #fff;
     margin-bottom: 20px;
     box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+
 }
 
 #main_content3>.innerbox>ul>li>a {
@@ -293,20 +296,25 @@ section>.innerbox>h2>span::before {
     width: 300px;
     height: auto;
     color: #151515;
+
 }
 
 #main_content3>.innerbox>ul>li>a>.listbox>img {
     width: 300px;
     object-fit: cover;
+
 }
 
 #main_content3>.innerbox>ul>li>a>.listbox>div {
     padding: 10px;
+
 }
 
 #main_content3>.innerbox>ul>li>a>.listbox>div>strong {
     display: block;
     margin-bottom: 6px;
+
+
 }
 
 /* #main_content3>.innerbox>ul>li .pop {
