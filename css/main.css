@@ -101,7 +101,7 @@ section>.innerbox>h2>span::before {
 #main_content1 {
     width: 100%;
     height: 900px;
-    /* background: url(../img/background_1.png) no-repeat center; */
+    background: url(../img/new_bg_01.jpg) no-repeat center;
     background-color: #F9F871;
 }
 
